@@ -1,10 +1,24 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
+
+
+const cors = require('cors');
+
 // const User = require('./models/users.model.js');
 // const Transaction = require('./models/transactions.model.js');
 const Rate = require('./models/Rates.js');
 const Token = require('./models/Tokens.js');
+
+
+
+
+app.use(cors({
+  origin: 'http://localhost:3000' // Replace with your frontend origin
+}));
+
+
+
 
 
 const transactionSchema = new mongoose.Schema({
