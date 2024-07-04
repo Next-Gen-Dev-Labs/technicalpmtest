@@ -20,6 +20,7 @@ time Allowed: 8 Mins
 # 
 Assuming you have successfully cloned the repo to your local machine
 
+* Initialize the project with `npm run dev`
 * get the appilcation Running on Port 3002
 * Review the `User Model` to know the parameter required for next step.
 * Send a post request with all the required users parameters
