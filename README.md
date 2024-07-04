@@ -8,6 +8,7 @@ time Allowed: 8 Mins
 
 
 **Requirements**
+- Understanding of Git (If you are not familar with Git please reference the Git documentation [HERE](https://git-scm.com/) )
 - Terminal 
 - Postman or Thunderclient 
 
