@@ -31,24 +31,11 @@ const UsersSchema = mongoose.Schema (
         country: {
             type: String,
             required: false,
-            default: 'Uganda',
+            default: 'Nigeria',
         },
         phone_number: {
             type: String,
             required: false,
-        },
-        walletaddress: {
-            type: String,
-            required: false,
-        },
-        masked_walletaddress: {
-            type: String,
-            required: false,
-        },
-        wallet_balance: {
-            type: Number,
-            required: false,
-            
         }
     },
     {
